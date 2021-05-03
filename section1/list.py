@@ -40,6 +40,10 @@ for i in range(0, n):
 
 print(lst)
 
+# On console It will give all the operations of list
+# dir(list)
+# dir(str)
+
 
 # List Slicing
 # Lst[Initial: End: IndexJump]
@@ -65,3 +69,6 @@ Lst = [50, 70, 30, 20, 90, 10, 50]
 
 # Display list
 print(Lst[1:5])
+
+# TO find what any identifier does
+# help(str.upper)
