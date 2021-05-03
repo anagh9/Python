@@ -1,6 +1,6 @@
-import pandas as pd
+import pandas
 
-df = pd.DataFrame(
+df = pandas.DataFrame(
     {
         "Name": [
             "Anagh Kumar",
@@ -14,4 +14,4 @@ df = pd.DataFrame(
 
 print(df)
 
-# print("Hello")
+print("Hello")

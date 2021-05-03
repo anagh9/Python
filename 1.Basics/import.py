@@ -29,6 +29,6 @@ if __name__ == "__main__":
     while True:
         if os.path.exists("Files/temps_today.csv"):
             data = pandas.read_csv("Files/temp_today.csv")
-            print(data.mean())
+            print(data.mean()["str1"])
         else:
             print("File does not exists")
