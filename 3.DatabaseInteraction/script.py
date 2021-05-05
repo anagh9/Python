@@ -45,7 +45,7 @@ def update(quantity, price, item):
 
 # insert("Coffee", 8, 3)
 # insert("Maggie", 54, 1)
-insert("Coco Cola", 11, 6)
+# insert("Coco Cola", 11, 6)
 # delete("Coco Cola")
 # update(11, 12, "Wine Glass")
 print(view())
